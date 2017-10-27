@@ -1,0 +1,28 @@
+{
+  "name": "git-export",
+  "version": "0.0.1",
+  "description": "A tool that can export files form git repository.",
+  "main": "ex-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llypg/node-git-export.git"
+  },
+  "keywords": [
+    "export",
+    "git",
+    "tool"
+  ],
+  "author": "llypg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llypg/node-git-export/issues"
+  },
+  "homepage": "https://github.com/llypg/node-git-export#readme",
+  "dependencies": {
+    "shelljs": "^0.7.8",
+    "yargs": "^8.0.2"
+  }
+}
