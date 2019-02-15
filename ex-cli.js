@@ -49,10 +49,10 @@ const seconds = date.getSeconds() < 10 ? "0"+date.getSeconds() : date.getSeconds
 
 const outPutDirName = "fix__" + date.getFullYear() + month + theDate + "_" + hours + "." + minutes + "." + seconds;
 
-//
-const TOP = path.resolve(__dirname, "/");
+// 当前目录
+const TOP = path.resolve(__dirname, ".");
 //使用命令的 路径
-const CALL_PATH = path.resolve("./");
+const CALL_PATH = path.resolve(__dirname, ".");
 //git 仓库地址
 const GIT_REPO_PATH = argv.repo ? path.join(TOP, path.relative(TOP, argv.repo)) : CALL_PATH;
 
